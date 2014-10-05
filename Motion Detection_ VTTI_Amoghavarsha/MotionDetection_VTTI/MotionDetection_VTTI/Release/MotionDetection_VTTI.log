@@ -1,0 +1,53 @@
+﻿Build started 11/25/2013 1:04:37 AM.
+     1>Project "C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\MotionDetection_VTTI\MotionDetection_VTTI.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MotionDetection_VTTI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\OpenCV-2.4.6\opencv\build\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt drawOnlyMatches.cpp findRectangle.cpp main.cpp
+         drawOnlyMatches.cpp
+     1>drawOnlyMatches.cpp(10): warning C4018: '<' : signed/unsigned mismatch
+         findRectangle.cpp
+     1>findRectangle.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(16): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(33): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(33): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(50): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(50): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(67): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>findRectangle.cpp(67): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+     1>main.cpp(41): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(85): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(87): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(92): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(94): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(113): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(113): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(113): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(113): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>main.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\Release\MotionDetection_VTTI.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\OpenCV-2.4.6\opencv\build\x86\vc10\lib" opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_nonfree246.lib opencv_objdetect246.lib opencv_photo246.lib opencv_stitching246.lib opencv_superres246.lib opencv_ts246.lib opencv_video246.lib opencv_videostab246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\MotionDetection_VTTI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\Release\MotionDetection_VTTI.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\Release\MotionDetection_VTTI.lib" /MACHINE:X86 Release\drawOnlyMatches.obj
+         Release\findRectangle.obj
+         Release\main.obj
+         Generating code
+         Finished generating code
+         MotionDetection_VTTI.vcxproj -> C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\Release\MotionDetection_VTTI.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\Release\MotionDetection_VTTI.exe;#1" /manifest Release\MotionDetection_VTTI.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MotionDetection_VTTI.unsuccessfulbuild".
+         Touching "Release\MotionDetection_VTTI.lastbuildstate".
+     1>Done Building Project "C:\Users\amoghesturi\Documents\Visual Studio 2010\Projects\MotionDetection_VTTI\MotionDetection_VTTI\MotionDetection_VTTI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.03
